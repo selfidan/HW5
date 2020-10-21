@@ -1,2 +1,2 @@
-# HW5
-assignment 5 SI 339 flexbox
+# homework_5
+Starter code for Homework 5 - Flex

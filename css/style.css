@@ -257,8 +257,8 @@ header{
   /*You will want four selectors*/
   
   .pricing{
-    align-content: center;
-    flex-wrap: row nowrap;
+    align-items: flex-start;
+    flex-wrap: column nowrap;
   }
   
   #gallery, .gallery {

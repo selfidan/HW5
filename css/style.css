@@ -252,7 +252,6 @@ header{
   /*You will want four selectors*/
   
   header {
-    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -263,7 +262,7 @@ header{
 
   .pricing{
     align-items: flex-start;
-    /*flex-wrap: row nowrap;*/
+    flex-wrap: row nowrap;
   }
 
   body{

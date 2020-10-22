@@ -82,7 +82,7 @@ footer{
    animation-name: logo-wiggle;
    -webkit-animation-duration: 15s;
    animation-duration: 15s;
-   animation-iteration-count: 1;
+   /*animation-iteration-count: 1;*/
    /*display: block;
    margin-right: auto;*/
 }

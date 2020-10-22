@@ -249,7 +249,7 @@ header{
   }
   
   .card {
-    /*display: flex;*/
+    display: flex;
     flex-basis: 200px;
   }
 
@@ -257,8 +257,8 @@ header{
   /*You will want four selectors*/
   
   .pricing{
-    align-items: flex-start;
-    flex-wrap: column nowrap;
+    align-content: flex-start;
+    flex-wrap: row nowrap;
   }
   
   #gallery, .gallery {

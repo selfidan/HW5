@@ -252,6 +252,7 @@ header{
   /*You will want four selectors*/
   
   header {
+    display: flex;
     align-items: center;
     justify-content: center;
   }

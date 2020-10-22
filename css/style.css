@@ -244,6 +244,7 @@ header{
 
 @media print { 
   .card {
+    display: flex;
     flex-basis: 200px;
   }
 

@@ -248,21 +248,16 @@ header{
     flex-basis: 200px;
   }
   
-  /*header {
-    align-items: center;
-    /*justify-content: center;*/
-  }*/
-  
   /*Your code here again.*/
   /*You will want four selectors*/
- 
-  #gallery, .gallery {
-    display: none;
-  }
-
+  
   .pricing{
     align-content: flex-start;
     flex-wrap: row nowrap;
+  }
+ 
+  #gallery, .gallery{
+    display: none;
   }
 
   body{

@@ -261,8 +261,9 @@ header{
   }
 
   .pricing{
-    align-content: flex-start;
-    flex-wrap: row nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   body{

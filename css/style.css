@@ -243,16 +243,16 @@ header{
 }
 
 @media print { 
+  .card {
+    display: flex;
+    flex-basis: 200px;
+  }
+  
   header {
     align-items: center;
     /*justify-content: center;*/
   }
   
-  .card {
-    display: flex;
-    flex-basis: 200px;
-  }
-
   /*Your code here again.*/
   /*You will want four selectors*/
   

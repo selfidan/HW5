@@ -253,7 +253,7 @@ header{
   
   .pricing{
     align-content: flex-start;
-    flex-wrap: nowrap;
+    flex-wrap: row nowrap;
   }
  
   #gallery, .gallery{

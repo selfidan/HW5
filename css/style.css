@@ -244,7 +244,6 @@ header{
 
 @media print { 
   .card {
-    display: flex;
     flex-basis: 200px;
   }
 
@@ -252,7 +251,7 @@ header{
   /*You will want four selectors*/
   
   header {
-    align-items: flex-start;
+    align-items: center;
   }
 
   #gallery, .gallery {

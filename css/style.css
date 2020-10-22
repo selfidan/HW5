@@ -243,19 +243,24 @@ header{
 }
 
 @media print { 
-  .card {
+  .card{
+    display: flex;
     flex-basis: 200px;
   }
   
   /*Your code here again.*/
   /*You will want four selectors*/
+  .gallery{
+    display: none;
+  }
+  
+  #gallery{
+    display: none;
+  }
   
   .pricing{
     align-items: flex-start;
-  }
- 
-  #gallery, .gallery{
-    display: none;
+    flex-wrap: row nowrap;
   }
 
   body{

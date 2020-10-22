@@ -79,6 +79,7 @@ footer{
    /*Your code here.*/
 
    -webkit-animation: logo-wiggle;
+   animation-name: logo-wiggle;
    animation-duration: 15s;
    /*animation-iteration-count: 1;*/
    display: block;

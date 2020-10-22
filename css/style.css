@@ -243,27 +243,26 @@ header{
 }
 
 @media print { 
+  header {
+    align-items: center;
+    /*justify-content: center;*/
+  }
+  
   .card {
-    display: flex;
+    /*display: flex;*/
     flex-basis: 200px;
   }
 
   /*Your code here again.*/
   /*You will want four selectors*/
   
-  header {
-    align-items: center;
-    justify-content: center;
+  .pricing{
+    align-items: flex-start;
+    /*flex-wrap: wrap;*/
   }
-
+  
   #gallery, .gallery {
     display: none;
-  }
-
-  .pricing{
-    display: flex;
-    align-content: flex-start;
-    flex-wrap: wrap;
   }
 
   body{

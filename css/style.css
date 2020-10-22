@@ -263,7 +263,7 @@ header{
   .pricing{
     display: flex;
     align-content: flex-start;
-    flex-wrap: row nowrap;
+    flex-wrap: wrap;
   }
 
   body{

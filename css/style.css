@@ -60,7 +60,7 @@ footer{
     width: 25px;
   }
   to {
-    width: 420 px;
+    width: 420px;
   }
 }
 
@@ -71,15 +71,16 @@ footer{
     width: 25px;
   }
   to {
-    width: 420 px;
+    width: 420px;
   }
 } 
 
 #logo{
    /*Your code here.*/
 
-   -webkit-animation: logo-wiggle;
+   -webkit-animation-name: logo-wiggle;
    animation-name: logo-wiggle;
+   -webkit-animation-duration: 15s;
    animation-duration: 15s;
    animation-iteration-count: 1;
    /*display: block;
